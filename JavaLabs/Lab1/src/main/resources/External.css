@@ -1,0 +1,7 @@
+#contain{
+    -fx-fill: linear-gradient(black,gray,white,black);
+}
+#txt{
+    -fx-fill: red;
+
+}

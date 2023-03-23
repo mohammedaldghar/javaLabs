@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.bdconnect.HelloApplication">
+   <children>
+      <Label layoutX="103.0" layoutY="80.0" text="ID" />
+      <Label layoutX="90.0" layoutY="166.0" text="Name" />
+      <TextField fx:id="idRecord" disable="true" layoutX="189.0" layoutY="76.0" prefHeight="24.0" prefWidth="220.0" promptText="ID" />
+      <TextField fx:id="nameRecord" layoutX="187.0" layoutY="162.0" prefHeight="24.0" prefWidth="239.0" promptText="Enter Name" />
+      <Button layoutX="34.0" layoutY="236.0" mnemonicParsing="false" text="New" />
+      <Button layoutX="494.0" layoutY="236.0" mnemonicParsing="false" text="Update" />
+      <Button layoutX="270.0" layoutY="345.0" mnemonicParsing="false" text="Delete" />
+      <Button layoutX="34.0" layoutY="285.0" mnemonicParsing="false" text="First" />
+      <Button layoutX="23.0" layoutY="345.0" mnemonicParsing="false" text="Previous" />
+      <Button layoutX="494.0" layoutY="285.0" mnemonicParsing="false" text="Last" />
+      <Button layoutX="492.0" layoutY="345.0" mnemonicParsing="false" text="Next" />
+   </children>
+</Pane>
